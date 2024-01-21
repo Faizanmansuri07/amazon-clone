@@ -40,6 +40,14 @@
       justify-content: space-evenly;
   
 }
+.nav-search button{
+    height: 32px;
+    outline:none;
+    border:none;
+    background-color: rgb(222, 172, 78);
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+}
 .select{
     height: 32px;
     border-top-left-radius:6px ;
@@ -98,7 +106,10 @@
     background-color: #222f3d;
     color: white;
 }
-
+.pannel-all ,i{
+    display: flex;
+    margin-right: 5px;
+}
 .pannel-opn{
     width: 70%;
      display: flex;
@@ -135,6 +146,10 @@
 }
 .hero-msg a{
     color:#007185;
+}
+.hero-msg a:hover{
+     text-decoration: underline;
+     cursor: pointer;
 }
 
 /*Shop-section*/
@@ -202,6 +217,12 @@
 }
 .footer-info p{
     margin-top: 6px;
+
+}
+.footer-info p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
 }
 .amazon{
     background-color:#374751 ;
@@ -213,6 +234,9 @@
 .amazon img{
     height: 50px;
    
+}
+.copyright-hed p{
+    text-align: center;
 }
 .copyright-hed{
     display: flex;
